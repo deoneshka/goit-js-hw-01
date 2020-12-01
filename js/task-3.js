@@ -3,19 +3,16 @@ const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 
 switch (password) {
-  case null: {
+  case null:
     message = 'Отменено пользователем!';
     break;
-    }
         
-  case ADMIN_PASSWORD: {
+  case ADMIN_PASSWORD:
     message = 'Добро пожаловать!';
     break;
-    }
 
-  default: {
+  default:
     message = 'Доступ запрещен, неверный пароль!';
-  }
 }
 
 alert(message);
