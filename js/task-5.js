@@ -5,34 +5,28 @@ if (countryEntry === null) {
     alert('Отменено пользователем');
 } else {
     switch (countryEntry.toLowerCase()) {
-        case 'китай': {
+      case 'китай':
         price = 100;
         break;
-    }
         
-        case 'чили': {
+      case 'чили':
         price = 250;
         break;
-    }
         
-        case 'австралия': {
+      case 'австралия':
         price = 170;
         break;
-    }
         
-        case 'индия': {
+      case 'индия':
         price = 80;
         break;
-    }
         
-        case 'ямайка': {
+      case 'ямайка':
         price = 120;
         break;
-    }
         
-    default : {
+      default :
         alert('В вашей стране доставка не доступна');
-    }
 }
 }
 
